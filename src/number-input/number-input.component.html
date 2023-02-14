@@ -1,1 +1,11 @@
-<p>number-input works!!</p>
+<div class='center'>
+      <!--
+      <a (click)='updateQuantity(-1)' class="minus">-</a>
+      <input type='number' placeholder='0' [(ngModel)]='item.quantity' (ngModelChange)='updateCart(item)' min='0'>
+      <a (click)='updateQuantity(1)' class='plus'>+</a>
+      -->
+  <button class="minus">-</button>
+  <input name=number-input type=number min={{min}} max={{max}} step=0.01>
+  <button class="plus">+</button>
+</div>
+<!--<input name=number-input type=number min=0 max=10 step=0.01>-->

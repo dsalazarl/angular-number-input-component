@@ -16,7 +16,7 @@ import { NumberInputComponent } from './number-input/number-input.component'
     </a>
     -->
     <h1 style="text-align: center;">Number Input</h1>
-    <app-number-input></app-number-input>
+    <app-number-input [min]=0 [max]=100></app-number-input>
   `,
 })
 export class App {
