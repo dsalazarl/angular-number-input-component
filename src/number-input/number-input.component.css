@@ -1,3 +1,23 @@
 .center {
   text-align: center;
-} 
+}
+
+.number_input {
+  width: 150px;
+  height: 25px;
+}
+.number_input:focus {
+  background-color: rgb(198, 228, 236);
+}
+
+.number_input_btn {
+  background-color: rgb(0, 213, 255);
+  width: 30px;
+  height: 30px;
+}
+.number_input_btn:hover {
+  background-color: rgb(0, 106, 255);
+}
+.number_input_btn:active {
+  background-color: rgb(0, 255, 42);
+}
